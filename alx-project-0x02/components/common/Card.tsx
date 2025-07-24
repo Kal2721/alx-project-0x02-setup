@@ -1,6 +1,6 @@
 import { CardProps } from "@/interfaces";
 
-const CardComponents: React.FC = (props) => {
+const Card: React.FC = (props) => {
 	return (
 		<div>
 			<h2>{props.title}</h2>
@@ -9,4 +9,4 @@ const CardComponents: React.FC = (props) => {
 	);
 }
 
-export default CardComponents;
+export default Card;
