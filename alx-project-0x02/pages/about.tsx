@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import Button from "@/components/common/Button";
+import { type ButtonProps } from '@/interface';
 
 const About: React.FC = () => {
 	return (

@@ -1,4 +1,5 @@
-import { ButtonProps } from '@/interface';
+import { type ButtonProps } from '@/interface';
+
 
 const Button: React.Fc<ButtonProps> = ({
 	size = '',
